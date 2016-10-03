@@ -1,2 +1,0 @@
-prueba del git status y push
-prueba de que se baja correctamente
