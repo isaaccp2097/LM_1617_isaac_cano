@@ -1,0 +1,9 @@
+VOCABULARY 
+----------
+
+Deadline - fecha limite
+leaf - hoja
+tree - arbol 
+tag - etiqueta
+atribute- atributo
+check - comprobar
