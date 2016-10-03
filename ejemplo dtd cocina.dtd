@@ -1,0 +1,13 @@
+<ELEMENT! cookbook (recipe+)>
+<ELEMENT! recipe (name, ingredients, process)>
+<ELEMENT! name (#PCDATA)>
+<ELEMENT! ingredients (ingredient+)>
+<ELEMENT! ingredient (name, quantity?)>
+<ELEMENT! name (#PCDATA)>
+<ELEMENT! quantity (#PCDATA)>
+<ELEMENT! process (step+)>
+
+<!ATTLIST step order CDATA #REQUIRED>
+<!ATTLIST coockbook echange CDATA>
+<!ATTLIST recipe echange CDATA>
+<!ATTLIST name... CDATA>

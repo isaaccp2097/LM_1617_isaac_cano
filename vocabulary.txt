@@ -7,3 +7,9 @@ tree - arbol
 tag - etiqueta
 atribute- atributo
 check - comprobar
+slides - transparencia
+set - conjunto
+subset - subconjunto
+quotes - comilla
+mistake - error
+rules - reglas
