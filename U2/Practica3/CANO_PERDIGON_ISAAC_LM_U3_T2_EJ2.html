@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ejercicio 2</title>
+  </head>
+  <body>
+    Ejercicio 2
+    <form action="">
+      <table>
+        <thead>
+          <tr>
+            <th align="left" bgcolor="#81F7F3">
+              Event Planner
+            </th>
+            <td colspan="4" bgcolor="#81F7F3">
+              <select >
+                <option  value="">More Actions</option>
+                <option  value="">Futbol 11</option>
+                <option value="">Futbol 7</option>
+                <option  value="">Futbol mixto</option>
+              </select>
+            </td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th align="left">
+              Event Name
+            </th>
+            <td>
+              <input type="text" name="event" size="30">
+            </td>
+            <th align="left" height="50" valign="top">
+              Requirements
+            </th>
+            <td colspan="2">
+              <input type="checkbox" name="staffing" value="check">Staffing<br>
+              <input type="checkbox" name="cate" value="check">Catering<br>
+              <input type="checkbox" name="seguri" value="check">Security
+            </td>
+          </tr>
+          <tr>
+            <th align="left">
+              Event Coordinator
+            </th>
+            <td colspan="3">
+              <input type="text" name="cordinator" size="30">
+            </td>
+          </tr>
+          <tr>
+            <th align="left">
+              Email
+            </th>
+            <td>
+              <input type="text" name="email" size="30">
+            </td>
+            <th align="left" height="50" valign="top">
+              Event start Date
+            </th>
+            <td>
+              <input type="date"><img src="calendario.png" align="center">  [dd-MM-yyyy <br> HH:mm:ss]
+            </td>
+          </tr>
+          <tr>
+            <th align="left">
+              Event type
+            </th>
+            <td>
+              <select>
+                <option  value="">Concert </option>
+                <option  value="">Partido amistoso</option>
+                <option  value="">Competición</option>
+                <option  value="">Entrenamiento</option>
+              </select>
+            </td>
+            <th align="left" height="50" valign="top">
+              Event End Date
+            </th>
+            <td>
+              <input type="date" ><img src="calendario.png" align="center"> [dd-MM-yyyy <br> HH:mm:ss]
+            </td>
+          </tr>
+          <tr>
+            <th align="left">
+              Total Members
+            </th>
+            <td>
+              <select>
+                <option  value="">-Select- </option>
+                <option  value="">Partido amistoso</option>
+                <option  value="">Competición</option>
+                <option  value="">Entrenamiento</option>
+              </select>
+            </td>
+            <th align="left" height="50" valign="top" rowspan="2">
+              Location
+            </th>
+            <td rowspan="2">
+              <textarea name="city"  rows="8" cols="40"> </textarea>
+            </td>
+          </tr>
+          <tr>
+            <th align="left" height="50" valign="top" rowspan="3">
+              Event Description
+            </th>
+            <td rowspan="3">
+              <textarea name="city"  rows="8" cols="40"> </textarea>
+            </td>
+          </tr>
+          <tr>
+            <th align="left">
+              City
+            </th>
+            <td>
+              <input type="text" size="30" name="city">
+            </td>
+          </tr>
+          <tr>
+            <th align="left">
+              State
+            </th>
+            <td>
+              <select>
+                <option  value="">-Select- </option>
+                <option  value="">Partido amistoso</option>
+                <option  value="">Competición</option>
+                <option  value="">Entrenamiento</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <th align="left">
+              Does your program <br> involve anytype of <br> outside activity
+            </th>
+            <td>
+              <input type="radio" name="yes" value="yes">Yes <br><input type="radio" name="yes" value="yes">No
+            </td>
+            <th align="left">
+              Country
+            </th>
+            <td>
+              <select>
+                <option  value="">-Select- </option>
+                <option  value="">Partido amistoso</option>
+                <option  value="">Competición</option>
+                <option  value="">Entrenamiento</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <th>
+              Cost Per Person
+            </th>
+            <td>
+              <input type="text" name="costperson" value="">USD
+            </td>
+            <th height="50" align="left">
+              ATTACH<br>DETAILED<br>ITINERARY
+            </th>
+            <td>
+              <input type="file" name="attach"  >
+            </td>
+          </tr>
+          <tr>
+            <td colspan="4" height="30" align="center">
+              <input type="submit" value=" Submit" style="background-color: #81F7F3"><input value="Reset" type="reset" style="background-color: #81F7F3">
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+  </body>
+</html>
