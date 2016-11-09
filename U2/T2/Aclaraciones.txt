@@ -1,0 +1,18 @@
+En este archivo haré algunas aclaraciones de los ejercicios
+-------------------------------------------------------------
+En el primer ejercicio, en la segunda columna la parte de los 01. dentro de las tablas, no está hecho
+porque informándome por internet he visto que no existe ya ese formato para las tablas, por lo que habría 
+que hacerlo de otra forma con hojas de estilos.
+
+En el ejercicio 2 me da un error al validar el ejercicio en la parte del atributo "bordercolor" he investigado y 
+he estado mirando en foros y demás y no he podido descubrir el error, se que me pone que no existe ese atributo, 
+pero si lo quito no sale el color del borde de la tabla por lo que lo he dejado tal y como está.
+
+En el tercer ejercicio he tenido problemas con los navegadores, ya que al terminar la tabla en google chrome no
+había diferencia en la anchura de las celdas y lo he corregido poniendo un height como atributo en la etiqueta "tablet",
+aunque este atributo no sirva en esta etiqueta y por eso no valida correctamente. Y en Firefox el error es el mismo
+pero en la altura de las celdas, tampoco hay diferencia ni se aprecia el rowspan que está puesto correctamente, cuando
+la tabla está terminada. Con esto quiero decir que el ejercicio 3 realmente estaría hecho de forma correcta sin ese 
+heigh dentro de la etiqueta "tablet" y sin los "width" dentro de las etiquetas "td" que también lo he puesto para que
+se vea bien hecho en google chrome, para que se vea en cualquier navegador correcto habria que eliminar lo anterior. 
+Aunque el resultado final no sería el más parecido a la imagen del ejercicio.
