@@ -5,7 +5,17 @@
 body {background-color: tan}
 
 /* Headers */
-h1 {color:maroon; font-size:20pt}
+h1 {color:maroon;
+  font-size:20pt;
+  padding: 10px 10px 10px 10px;
+  /* top-right-bottom-left */
+  background-color: white;
+  border-style: groove double;
+  border-color: blue;
+  border-width: 10px;
+  text-align: center;
+  margin-right: 500px;
+  background-image: url(backtile.gif);}
 
 /* HR (Hard Rule = line) */
 hr {color:navy}
@@ -27,5 +37,3 @@ a:active   {color:blue}
 /* Classes used by all html elements */
 
 /* Ids */
-
-
