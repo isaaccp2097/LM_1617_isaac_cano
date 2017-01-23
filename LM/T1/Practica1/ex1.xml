@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE class>
+<subjet>
+  <F.E>
+      <student>
+        <firstname> Juan </firstname>
+        <surname> Perez </surname>
+        <address> Ortega y Gasset, 4 </address>
+        <email> juan@perez.es </email>
+      </student>
+      <student>
+        <firstname> Inma </firstname>
+        <surname> Morilla </surname>
+        <address> Marco Perez, 5 </address>
+        <email> inma@morilla.es </email>
+      </student>
+      <student>
+        <firstname> Ernesto </firstname>
+        <surname> Fatuarte </surname>
+        <address> Manuel Machado, 8 </address>
+        <email> ernesto@fatuarte.es </email>
+      </student>
+      <student>
+        <firstname> Isaac </firstname>
+        <surname> Cano </surname>
+        <address> Ortega y Gasset, 20 </address>
+        <email> isaac@cano.es </email>
+      </student>
+      <student>
+        <firstname> Pablo </firstname>
+        <surname> Pérez </surname>
+        <address> Manuel Machado, 89 </address>
+        <email> pablo@perez.es </email>
+      </student>
+      <student>
+        <firstname> Miguel </firstname>
+        <surname> Vargas </surname>
+        <address> Pajes del Corro, 110 </address>
+        <email> miguel@vargas.es </email>
+      </student>
+      <student>
+        <firstname> Francisco </firstname>
+        <surname> Caballero </surname>
+        <address> Miguel Ángel, 7 </address>
+        <email> francisco@caballero.es </email>
+      </student>
+      <student>
+        <firstname> Juan </firstname>
+        <surname> Garcia </surname>
+        <address> Sol, 55 </address>
+        <email> juan@garcia.es </email>
+      </student>
+      <student>
+        <firstname> Rafael </firstname>
+        <surname> Barroso </surname>
+        <address> Antonio Machado, 32 </address>
+        <email> rafael@barroso.es </email>
+      </student>
+      <student>
+        <firstname> Tux </firstname>
+        <surname> Linux </surname>
+        <address> Polo Norte, 1 </address>
+        <email> tux@linux.es </email>
+      </student>
+  </F.E>
+
+  <english>
+    <student>
+      <firstname> Manuel </firstname>
+      <surname> Mansilla </surname>
+      <address> Madrid, 11 </address>
+      <email> manuel@mansilla.es </email>
+    </student>
+    <student>
+      <firstname> Antonio </firstname>
+      <surname> Cruzado </surname>
+      <address> Ortega y Gasset, 17 </address>
+      <email> antonio@cruzado.es </email>
+    </student>
+    <student>
+      <firstname> Manuel </firstname>
+      <surname> Melero </surname>
+      <address> Lisboa, 14 </address>
+      <email> manuel@melero.es </email>
+    </student>
+    <student>
+      <firstname> Alejandro </firstname>
+      <surname> Ortiz </surname>
+      <address> Sevilla, 23 </address>
+      <email> alejandro@ortiz.es </email>
+    </student>
+    <student>
+      <firstname> Samuel </firstname>
+      <surname> Cano </surname>
+      <address> Ortega y Gasset, 20 </address>
+      <email> samuel@cano.es </email>
+    </student>
+    <student>
+      <firstname> Paco </firstname>
+      <surname> Rincón </surname>
+      <address> Blas Infante 85 </address>
+      <email> paco@rincon.es </email>
+    </student>
+    <student>
+      <firstname> Will </firstname>
+      <surname> Smith </surname>
+      <address> New York, 66 </address>
+      <email> will@smith.es </email>
+    </student>
+    <student>
+      <firstname> Jose </firstname>
+      <surname> Revuelta </surname>
+      <address> Los Molares, 19 </address>
+      <email> jose@revuelta.es </email>
+    </student>
+    <student>
+      <firstname> Enrique </firstname>
+      <surname> Diaz </surname>
+      <address> Candela </address>
+      <email> enrique@diaz.es </email>
+    </student>
+    <student>
+      <firstname> Juan </firstname>
+      <surname> Diaz </surname>
+      <address> Oporto </address>
+      <email> juan@diaz.es </email>
+    </student>
+  </english>
+</subjet>

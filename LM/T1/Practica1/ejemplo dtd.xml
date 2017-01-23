@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<stocks>
+  <stock echange="kld">
+    <name> isaac </name>
+    <symbol> 66 </symbol>
+    <price> 445 </price>
+  </stock>
+</stocks>

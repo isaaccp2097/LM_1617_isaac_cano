@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bus>
+<busseville>
+  <line number="1">
+    <route> A1 San Jacinto - Nervión </route>
+    <schedule number="1"> 7:30 </schedule>
+    <rout>
+      <stop number="1"> Calle Sol </stop>
+      <stop number="2"> Calle Santa Lucia </stop>
+      <stop number="3"> Calle Manuel Machado </stop>
+    </rout>
+  </line>
+
+  <line number="2">
+    <route> A2 Nervión - Prado San Sebastián </route>
+    <schedule number="2"> 8:30 </schedule>
+    <rout>
+      <stop number="1"> Calle Agua </stop>
+      <stop number="2"> Calle Fuego </stop>
+      <stop number="3"> Calle Aire </stop>
+    </rout>
+  </line>
+
+</busseville>
