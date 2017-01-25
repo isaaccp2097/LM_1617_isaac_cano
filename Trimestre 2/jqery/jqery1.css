@@ -1,0 +1,12 @@
+.texto{
+  background-color: black;
+  color: white;
+}
+table{
+  border: 1px solid black;
+}
+#bloque{
+  width: 500px;
+  height: 200px;
+  background-color:red;
+}

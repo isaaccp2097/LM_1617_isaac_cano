@@ -37,17 +37,8 @@ div > img{
   height: 500px;
 }
 #imgpequena{
+
   background: white;
-}
-#imgpeqint{
-  height: 180px;
-  width: 265px;
-  margin-top: 15px;
-}
-div#imgpeqint>img{
-  height: 180px;
-  width: 265px;
-  margin-top: 15px;
 }
 div#imgpequena>img{
   height: 180px;
