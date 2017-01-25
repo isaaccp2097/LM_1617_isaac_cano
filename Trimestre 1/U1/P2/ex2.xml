@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<!DOCTYPE lettera SYSTEM "ex2.dtd">
+<lettera>
+  Gentile <cliente> tal dei tali </cliente>,
+  la informiamo che i seguenti articoli da lei ordinati non sono piu disponibili a magazzino:
+  <ordine num="1234">
+    <articolo>
+      <codice>1</codice>
+      <descr>articolo 1</descr>
+    </articolo>
+    <articolo>
+      <codice>5</codice>
+      <descr>articolo 5</descr>
+    </articolo>
+  </ordine>
+  Cordiali saluti,
+  <responsabile><tit>dr.</tit>Mario Rossi</responsabile>
+</lettera>

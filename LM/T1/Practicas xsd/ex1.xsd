@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="gradebook">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="subject" minOccurs="1" maxOccurs="unbounded"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="subject">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="name" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="students" minOccurs="1" maxOccurs="1"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="name" type="xsd:string"/>
+  <xsd:element name="students">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="student" minOccurs="1" maxOccurs="30"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="student">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="firstname" minOccurs="1" maxOccurs="1"/>
+        <xsd:element ref="lastname" minOccurs="1" maxOccurs="unbounded"/>
+        <xsd:element ref="grade" minOccurs="1" maxOccurs="1"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="firstname" type="xsd:string"/>
+  <xsd:element name="lastname" type="xsd:string"/>
+  <xsd:element name="grade" type="xsd:decimal"/>
+</xsd:schema>

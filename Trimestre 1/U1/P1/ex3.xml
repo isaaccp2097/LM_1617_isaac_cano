@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE recipes>
+<recipes>
+  <recipe numero="1">
+    <name> Ensaladilla </name>
+    <ingredients>
+      <ing> patatas </ing>
+      <ing> tomate </ing>
+      <ing> huevo </ing>
+      <ing> cebolla </ing>
+      <ing> aceitunas </ing>
+      <ing> mayonesa </ing>
+    </ingredients>
+    <steps>
+      <ste> Picar todos los ingredientes </ste>
+      <ste> Mezclar todos los ingredientes </ste>
+      <ste> Añadir un poco de aceite, vinagre y sal </ste>
+      <ste> Añadir las aceitunas </ste>
+      <ste> Echar mayonesa y mezclar todo </ste>
+      <ste> Dejar 1 hora en la nevera y listo </ste>
+    </steps>
+  </recipe>
+  <recipe numero="2">
+    <name> Patatas con Salsa </name>
+    <ingredients>
+      <ing> patatas </ing>
+      <ing> tomate </ing>
+      <ing> ajo </ing>
+      <ing> aceite </ing>
+    </ingredients>
+    <steps>
+      <ste> Cortar las patatas en rodajas </ste>
+      <ste> Poner el aceite a calentar en una sarten </ste>
+      <ste> Freir las patatas </ste>
+      <ste> Triturar el tomate y calentarlo </ste>
+      <ste> Picar el ajo y mezclarlo con el tomate </ste>
+      <ste> Al final, mezclarlo todo y listo </ste>
+    </steps>
+  </recipe>
+</recipes>

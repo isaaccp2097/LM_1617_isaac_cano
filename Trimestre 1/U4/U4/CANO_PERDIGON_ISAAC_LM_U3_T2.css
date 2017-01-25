@@ -1,0 +1,177 @@
+#container{
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+}
+body{
+  background-repeat: no-repeat;
+  height: 700px;
+
+}
+#p1{
+  background-image: url(fondonavidad2.jpg);
+  background-repeat: no-repeat;
+  height: 1008px;
+  float: left;
+  width: 1280px;
+}
+div #titulo > p{
+  color:white;
+  font-size: 35px;
+  float: left;
+  margin-left: 25px;
+  margin-top: 40px;
+  width: 1250px;
+  font-family: garuda;
+}
+div #flechaiz > img {
+  float: left;
+  margin-left: 25px;
+  margin-top: 280px;
+}
+div #tablet > img{
+  float: left;
+  margin-left: 45px;
+  margin-top: 5px;
+
+}
+#textogrande{
+  width: 1150px;
+  margin-top: 200px;
+
+}
+#titlorem{
+  font-size:45px;
+  color:white;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-left: 540px;
+  font-family: freesans;
+
+}
+#textlorem{
+  font-size: 20px;
+  color: white;
+  margin-left: 550px;
+  font-family: loma;
+
+}
+div #flechade > img {
+  margin-right: 20px;
+  float: left;
+  margin-left: 750px;
+  margin-top: -50px;
+}
+div #boton > input{
+  margin-left: 590px;
+  margin-top: 30px;
+  height: 30px;
+  width: 90px;
+}
+#p2{
+  background-color: #F2F2F2;
+  height: 500px;
+  width: 1280px;
+  position: relative;
+  float: left;
+  margin-top: -295px;
+}
+#block1{
+  float: left;
+  margin-left: 125px;
+}
+#block2{
+  float: left;
+}
+#block3{
+  float: left;
+}
+#lorem1img {
+  background-color: red;
+  height: 230px;
+  width: 350px;
+  margin-left: -65px;
+  margin-top: 50px;
+  float: left;
+}
+div #lorem1img > p{
+  font-size: 40px;
+  margin-left: 90px;
+  margin-top: 90px;
+  color:white;
+  font-family: freesans;
+}
+div #lorem1 > p{
+  font-size: 30px;
+  width: 320px;
+  margin-top: 300px;
+  text-align: center;
+  font-family: freesans;
+}
+
+#lorem1{
+  font-size: 15px;
+  width: 350px;
+  margin-left: -60px;
+  font-family: freesans;
+}
+#lorem2img {
+  background-color: red;
+  height: 230px;
+  width: 350px;
+  margin-left: 50px;
+  margin-top: 50px;
+  float: left;
+
+}
+div #lorem2 > p{
+  font-size: 30px;
+  width: 320px;
+  margin-top: 300px;
+  text-align: center;
+  font-family: freesans;
+}
+div #lorem2img > p{
+  font-size: 40px;
+  margin-left: 90px;
+  margin-top: 90px;
+  color:white;
+  font-family: freesans;
+}
+#lorem2{
+  font-size: 15px;
+  width: 350px;
+  margin-left: 60px;
+  font-family: freesans;
+}
+
+#lorem3img {
+  background-color: red;
+  height: 230px;
+  width: 350px;
+  margin-left: 50px;
+  margin-top: 50px;
+  float: left;
+
+}
+div #lorem3 > p{
+  font-size: 30px;
+  width: 320px;
+  margin-top: 300px;
+  text-align: center;
+  font-family: freesans;
+}
+div #lorem3img > p{
+  font-size: 40px;
+  margin-left: 90px;
+  margin-top: 90px;
+  color:white;
+  font-family: freesans;
+}
+#lorem3{
+  font-size: 15px;
+  width: 350px;
+  margin-left: 60px;
+  font-family: freesans;
+}

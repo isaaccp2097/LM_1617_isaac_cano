@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<betis-aficion>
+  <member>
+    <name> Chris Smith </name>
+    <years> 4 </years>
+    <address> calle buena vista, 9b </address>
+  </member>
+  <member>
+    <name> Judi Zimmerman </name>
+    <years> 5 </years>
+    <address> calle ortega y gasset, 40 </address>
+  </member>
+  <member>
+    <name> Michael Calder </name>
+    <years> 3 </years>
+    <address> calle sol y luna, 65 </address>
+  </member>
+</betis-aficion>

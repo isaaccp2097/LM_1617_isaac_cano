@@ -1,0 +1,41 @@
+*{
+  box-sizing: border-box;
+}
+#container {
+  width: 80%;
+  margin: 10px auto;
+
+  position: relative;
+}
+#desplegable{
+  position: absolute;
+  background-color: grey;
+  border: 3px solid green;
+  height: 150px;
+  width: 125px;
+}
+#boton1{
+  height: 30px;
+  width: 20px;
+  margin-left: 90px;
+  margin-top: 0px;
+}
+#boton2{
+  height: 30px;
+  width: 20px;
+  margin-left: 90px;
+  margin-top: 0px;
+
+}
+#container img {
+  width: 100%;
+}
+#texto{
+  background-color: lightblue;
+  height: 120px;
+  width: 650px;
+  margin-top: -50px;
+  margin-left: 375px;
+  position: absolute;
+  border: 3px solid red;
+}

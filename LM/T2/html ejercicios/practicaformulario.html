@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FORMULARIO</title>
+  </head>
+  <body bgcolor="highblue">
+    <h1>FORMULARIO DE CICLO</h1>
+    <form action="" accept-charset="UTF-8">
+      Nombre: <br>
+      <input type="text" name="nombre"> <br>
+      Apellidos: <br>
+      <input type="text" name="apellidos"> <br>
+      DNI: <br>
+      <input type="text" name="dni"> <br><br>
+      <form method="post" action="accion.php" enctype="multipart/form-data">
+        Añade una foto de perfil:
+        <input name="imagen" type="file"/>
+      </form>
+      <br><br>
+      Fecha nacimiento<br><br>
+      Mes:
+      <select name="fechanacimiento">
+          <option value="enero">Enero</option>
+          <option value="febrero">Febrero</option>
+          <option value="marzo">Marzo</option>
+          <option value="abril">Abril</option>
+          <option value="mayo">Mayo</option>
+          <option value="junio">Junio</option>
+          <option value="julio">Julio</option>
+          <option value="agosto">Agosto</option>
+          <option value="septiembre">Septiembre</option>
+          <option value="octubre">Octubre</option>
+          <option value="noviembre">Noviembre</option>
+          <option value="diciembre">Diciembre</option>
+      </select><br> <br>
+      Día:
+      <input type="number" name="dia"> <br><br>
+      Año:
+      <input type="number" name="ano"> <br><br><br>
+      Curso:
+      <select name="curso">
+          <option value="1asir">1 ASIR</option>
+          <option value="2asir">2 ASIR</option>
+      </select><br>
+      Correo electrónico:
+      <input type="text" name="email" style="text-align:right">@asir.es<br>
+      Asignaturas a las que se matricula:<br>
+      <input type="checkbox" name="gender" value="lm">LM <input type="checkbox" name="gender" value="sgbd">SGBD  <br>
+      <input type="checkbox" name="gender" value="pdr">PDR <input type="checkbox" name="gender" value="fhw">FHW  <br>
+      <input type="checkbox" name="gender" value="si">SI <input type="checkbox" name="gender" value="sor">SOR  <br>
+      <input type="checkbox" name="gender" value="pi">PI <input type="checkbox" name="gender" value="sr">SR  <br>
+      <input type="checkbox" name="gender" value="fol">FOL <input type="checkbox" name="gender" value="eie">EIE  <br>
+      Comentarios, opiniones y cuestiones:
+      <input type="text" name="comentario"><br>
+      <input type="button" onclick="alerta('hello world!')" value="Enviar">
+
+    </form>
+  </body>
+</html>
