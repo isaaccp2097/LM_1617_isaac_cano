@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>pruebas</title>
+    <script src="js/jquery.js"></script>
+    <link rel="stylesheet" href="pruebas.css">
+  </head>
+  <body>
+    <!--Esto pertenece a la práctica 1-->
+    <h1>Pos X Pos Y</h1>
+    <!-- EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE -->
+    <!-- Esto pertenece a la práctica 2-->
+    <!--<div id="container">
+      <div id="square">
+
+      </div>
+    </div>-->
+    <!-- EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE-->
+    <!-- Esto pertenece a la práctica 3
+    <div id="container">
+      <div id="palauno">
+
+      </div>
+      <div id="red">
+
+      </div>
+      <div id="palados">
+
+      </div>
+    </div>-->
+  <!-- EEEEEEEEEEEEEEEEEEEEEEEEEEEE
+      Esto pertenece a la práctica 4
+      <div id="completo">
+      <div class="pequ">
+
+      </div>
+      <div class="peqd">
+
+      </div>
+      <div class="peqt">
+
+      </div>
+      <div class="peqc">
+
+      </div>
+
+    </div>-->
+
+
+    <script>
+      $(function() {
+        //Esto pertenece a la práctica 1
+        $("body").mousemove(function(event) {
+          $("h1").text("Pos X->"+event.pageX+"Pos Y->"+event.pageY);
+        });
+        //EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+        /* Esto pertenece a la práctica 2
+        $("body").keypress(function(event) {
+          var tecla = event.which;
+          console.log (tecla);
+          //MOVIMIENTO A LA IZQUIERDA CON LA LETRA "A"
+          if (tecla == 97){
+            $("#square").animate({
+              left : "-=10px"
+            },200);
+          }
+          //MOVIMIENTO HACIA ARRIBA CON LA LETRA "W"
+          if (tecla == 119){
+            $("#square").animate({
+              top : "-=10px"
+            },200);
+          }
+          //MOVIMIENTO HACIA ABAJO CON LA LETRA "S"
+          if (tecla == 115){
+            $("#square").animate({
+              top : "+=10px"
+            },200);
+          }
+          //MOVIMIENTO HACIA LA DERECHA CON LA LETRA "D"
+          if (tecla == 100){
+            $("#square").animate({
+              left : "+=10px"
+            },200);
+          }
+        });*/
+        //EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+        /*Esto pertenece a la práctica 3
+        $("body").keypress(function(event) {
+          var tecla = event.which;
+          console.log (tecla);
+          //MOVIMIENTO ARRIBA PALAUNO CON LA LETRA "Q"
+          if (tecla == 113){
+            $("#palauno").animate({
+              top : "-=10px"
+            },200);
+          }
+          //MOVIMIENTO HACIA ABAJO PALA UNO CON LA LETRA "A"
+          if (tecla == 97){
+            $("#palauno").animate({
+              top : "+=10px"
+            },200);
+          }
+          //MOVIMIENTO ARRIBA PALADOS CON LA LETRA "P"
+          if (tecla == 112){
+            $("#palados").animate({
+              top : "-=10px"
+            },200);
+          }
+          //MOVIMIENTO HACIA ABAJO PALADOS CON LA LETRA "Ñ"
+          if (tecla == 241){
+            $("#palados").animate({
+              top : "+=10px"
+            },200);
+          }
+        });*/
+        //EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+        /*Esto pertenece a la práctica 4
+        $("#completo").hide();
+        $("body").mousedown(function(event) {
+          var raton = event.which;
+        //  console.log (raton);
+
+          if (raton == 3){
+            $("#completo").show();
+          }
+          if (raton == 1){
+            $("#completo").hide();
+          }
+
+        });*/
+
+      });
+    </script>
+  </body>
+</html>

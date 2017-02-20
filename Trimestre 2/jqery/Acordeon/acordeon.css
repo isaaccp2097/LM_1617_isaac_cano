@@ -1,0 +1,139 @@
+*{
+  box-sizing: border-box;
+}
+#container {
+  width: 80%;
+  margin: 10px auto;
+}
+#cont{
+  /*height: 300px;*/
+  width: 50%;
+  margin: 0px auto;
+}
+#pequeno{
+  height: 60px;
+  width: 100%;
+  background-color: yellow;
+  border: 3px solid green;
+}
+#grande{
+  height: 240px;
+  width: 100%;
+  background-color: lightgreen;
+  border: 3px solid green;
+}
+.seta{
+  height: 50px;
+  width: 50px;
+  margin-top: 2px;
+  margin-left: 2px;
+}
+.google{
+  height: 50px;
+  width: 50px;
+  margin-top: 2px;
+  margin-left: 2px;
+}
+.informacion{
+  height: 50px;
+  width: 50px;
+  margin-top: 2px;
+  margin-left: 2px;
+}
+.music{
+  height: 50px;
+  width: 50px;
+  margin-top: 2px;
+  margin-left: 2px;
+}
+.off{
+  height: 50px;
+  width: 50px;
+  margin-top: 2px;
+  margin-left: 2px;
+}
+.pseta{
+  float: right;
+  margin-right: 80%;
+  margin-top: 19px;
+  color: blue;
+}
+.pgoo{
+  float: right;
+  margin-right: 74%;
+  margin-top: 19px;
+  color: blue;
+}
+.pinformacion{
+  float: right;
+  margin-right: 65%;
+  margin-top: 19px;
+  color: blue;
+}
+.poff{
+  float: right;
+  margin-right: 81%;
+  margin-top: 19px;
+  color: blue;
+}
+.pmusic{
+  float: right;
+  margin-right: 77%;
+  margin-top: 19px;
+  color:blue;
+}
+.hongos{
+  height: 213px;
+  width: 200px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.phongos{
+  float: right;
+  width: 50%;
+  margin-right: 5%;
+}
+.googlepalabra{
+  height: 213px;
+  width: 200px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.pgooglepalabra{
+  float: right;
+  width: 50%;
+  margin-right: 5%;
+}
+.informaciondef{
+  height: 213px;
+  width: 200px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.pinformaciondef{
+  float: right;
+  width: 50%;
+  margin-right: 5%;
+}
+.offdef{
+  height: 213px;
+  width: 200px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.poffdef{
+  float: right;
+  width: 50%;
+  margin-right: 5%;
+}
+.musicdef{
+  height: 213px;
+  width: 200px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.pmusicdef{
+  float: right;
+  width: 50%;
+  margin-right: 5%;
+}

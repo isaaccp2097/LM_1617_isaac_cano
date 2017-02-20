@@ -48,14 +48,18 @@
       $("#container img").on("mouseleave", function (){
         $("#texto").fadeOut(2000);
       });
+      $("#boton2").hide();
       $("#boton1").click(function(){
         $("#desplegable").css("width","40");
-        $("#boton1").css("margin-top","100");
+        $("#boton1").hide();
+      
+        $("#boton2").show();
         $("ul").hide();
       });
       $("#boton2").click(function(){
         $("#desplegable").css("width","125");
-        $("#boton2").css("margin-top","100");
+        $("#boton2").hide();
+        $("#boton1").show();
         $("ul").show();
       });
     });

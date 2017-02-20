@@ -1,0 +1,70 @@
+*{
+  box-sizing: border-box;
+}
+#container {
+  width: 80%;
+  margin: 10px auto;
+}
+
+#uno{
+height: 47px;
+width: 15%;
+background-color: #F5ECCE;
+float: left;
+border: 1px solid #DF0101;
+position: relative;
+margin-left: -3px;
+}
+
+
+#dos{
+height: 50px;
+width: 100%;
+background-color: #BE81F7;
+border: 1px solid #DF0101;
+margin-top: -3%;
+margin-left: -1px;
+float: left;
+}
+
+#dos > nav{
+  position: absolute;
+  width: 300px;
+  top: 104%;
+  left: 99%;
+}
+#tresu{
+  height: 44px;
+  width: 20%;
+  background-color: #9AFE2E;
+  float: left;
+  border: 1px solid #DF0101;
+}
+#tresd{
+  height: 44px;
+  width: 20%;
+  background-color: #9AFE2E;
+  float: left;
+  border: 1px solid #DF0101;
+  margin-top: 45px;
+}
+#trest{
+  height: 44px;
+  width: 20%;
+  background-color: #9AFE2E;
+  float: left;
+  border: 1px solid #DF0101;
+  margin-top: 90px;
+}
+#tresc{
+  height: 44px;
+  width: 20%;
+  background-color: #9AFE2E;
+  float: left;
+  border: 1px solid #DF0101;
+  margin-top: 137px;
+
+}
+p{
+  margin-left: 10px;
+}

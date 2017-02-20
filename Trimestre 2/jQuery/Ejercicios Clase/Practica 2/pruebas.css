@@ -1,0 +1,88 @@
+/* Esto pertenece a la práctica 1 y 4*/
+body{
+  width: 1294px;
+  height: 600px;
+}
+/* El container vale para la práctica 2  y 3*/
+/*#container{
+  width: 800px;
+  height: 600px;
+  margin: 30px auto;
+  border: 1px solid black;
+  position: relative;
+}*/
+/* El square solo sirve para la práctica 2
+  #square{
+  width: 25px;
+  height: 25px;
+  background-color: red;
+  position: absolute;
+  left: 280px;
+  top: 180px;
+}*/
+/* Las palas son para la práctica 3
+#palauno{
+  width: 50px;
+  height: 150px;
+  background-color: blue;
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 20px;
+}
+#red{
+  width: 3px;
+  height: 100%;
+  background-color: red;
+  position: absolute;
+  margin-left: 390px;
+}
+#palados{
+  width: 50px;
+  height: 150px;
+  background-color: blue;
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 729px;
+}*/
+#completo{
+  width: 200px;
+  height: 400px;
+  background-color: lightgreen;
+  position: relative;
+}
+.pequ{
+  width: 198px;
+  height: 97px;
+  background: lightblue;
+  position: absolute;
+  margin-top: 2px;
+  margin-left: 1px;
+  float: left;
+}
+.peqd{
+  width: 198px;
+  height: 97px;
+  background: lightblue;
+  position: absolute;
+  margin-top: 101px;
+  margin-left: 1px;
+  float: left;
+}
+.peqt{
+  width: 198px;
+  height: 97px;
+  background: lightblue;
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 1px;
+  float: left;
+}
+.peqc{
+  width: 198px;
+  height: 97px;
+  background: lightblue;
+  position: absolute;
+  margin-top: 300px;
+  margin-left: 1px;
+  float: left;
+}

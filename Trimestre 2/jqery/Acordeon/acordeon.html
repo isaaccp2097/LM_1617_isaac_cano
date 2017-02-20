@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ACORDEON</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="acordeon.css" rel="stylesheet" />
+   <script src="js/jquery.js"></script>
+  </head>
+  <body>
+    <div id="container">
+      <div id="cont">
+        <div id="pequeno">
+          <img class="seta" src="seta.png" alt="" />
+          <p class="pseta">SETA</p>
+        </div>
+        <div id="grande">
+          <img class="hongos" src="hongos.jpg" />
+          <p class="phongos">Nombre genérico con que se designa a cualquier hongo cuya forma consiste en un sombrero sostenido por un pie.</p>
+        </div>
+      </div>
+      <div id="cont">
+        <div id="pequeno">
+            <img class="google" src="google.png" alt="" />
+            <p class="pgoo">GOOGLE</p>
+        </div>
+        <div id="grande">
+          <img class="googlepalabra" src="googlepalabra.png" />
+          <p class="pgooglepalabra">Google es una compañía principal subsidiaria de la multinacional estadounidense Alphabet Inc.,
+          especializada en productos y servicios relacionados con Internet, software, dispositivos electrónicos y otras tecnologías.</p>
+        </div>
+      </div>
+      <div id="cont">
+        <div id="pequeno">
+            <img class="informacion" src="informacion.png" alt="" />
+            <p class="pinformacion">INFORMACION</p>
+        </div>
+        <div id="grande">
+          <img class="informaciondef" src="informaciondef.jpg" />
+          <p class="pinformaciondef">La información es un conjunto organizado de datos procesados, que constituyen un mensaje que
+          cambia el estado de conocimiento del sujeto o sistema que recibe dicho mensaje. Existen diversos enfoques para el estudio
+          de la información. </p>
+        </div>
+      </div>
+      <div id="cont">
+        <div id="pequeno">
+            <img class="off" src="off.png" alt="" />
+            <p class="poff">OFF</p>
+        </div>
+        <div id="grande">
+          <img class="offdef" src="offdef.png" alt="" />
+          <p class="poffdef"> Que en cine, teatro o televisión se oye de fondo y no pertenece a ninguno de los personajes que
+          aparecen en pantalla o en escena.</p>
+        </div>
+      </div>
+      <div id="cont">
+        <div id="pequeno">
+            <img class="music" src="music.png" alt="" />
+            <p class="pmusic">MUSIC</p>
+        </div>
+        <div id="grande">
+          <img class="musicdef" src="musicdef.jpg" alt="" />
+          <p class="pmusicdef">Arte de combinar los sonidos en una secuencia temporal atendiendo a las leyes de la armonía,
+          la melodía y el ritmo, o de producirlos con instrumentos musicales.</p>
+        </div>
+      </div>
+    </div>
+    <script>
+    $(document).ready(function(){
+    $("body>div>div>div:last-child").hide();
+    $("body>div>div>div:first-child").on('click',function(){
+      $(this).next().animate({
+      height:"show"},1000);
+      //$(this).parent().siblings().children("#grande").hide();
+      $(this).parent().siblings().children().next().hide();
+    });
+    });
+    </script>
+  </body>
+</html>
