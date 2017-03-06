@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Mi Menu</title>
+    <script src="js/jquery.js"></script>
+    <link rel="stylesheet" href="menufotos.css">
+  </head>
+  <body>
+    <div id="container">
+      <div id="imagenes">
+        <div class="planeta1" >
+          <img src="planeta1.jpg" >
+        </div>
+        <div class="planeta1">
+          <img src="planeta2.jpg" >
+        </div>
+        <div class="planeta1">
+          <img src="planeta3.jpg">
+        </div>
+        <div class="planeta1">
+          <img src="planeta4.jpg" >
+        </div>
+      </div>
+      <div id="botoniz">
+        <img src="izquierda.png" alt="flechaizquierda" id="izq">
+      </div>
+      <div id="botonde">
+        <img src="derecha.png" alt="flechaizquierda" id="de">
+      </div>
+    </div>
+    <script>
+          $(function() {
+            $("#izq").hide();
+            $("#container div  div:first-child").addClass("visible").animate({opacity: 1},0);
+            $("#botonde").click(function(){
+              if($(".visible").next().length!=0){
+                $(".visible").removeClass("visible").animate({opacity: 0},1000).next().addClass("visible").animate({opacity: 1},1000);
+                $("#izq").show();
+              }
+              else if($(".visible").length!=0){
+                $("#de").hide();
+              }
+            });
+            $("#botoniz").click(function(){
+        			if ( $(".visible").prev().length!=0){
+                $(".visible").removeClass("visible").animate({opacity: 0},1000).prev().addClass("visible").animate({opacity: 1},1000);
+                $("#de").show();
+        			}
+              else if($(".visible").length!=0){
+                $("#izq").hide();
+              }
+        		});
+
+
+
+        });
+
+    </script>
+  </body>
+</html>
