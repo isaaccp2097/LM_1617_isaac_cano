@@ -1,0 +1,73 @@
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple sliding side bar using jquery</title>
+  <script src="js/js.js"></script>
+</head>
+
+<body>
+
+<h1 id="texto">Java script</h1>
+
+<label> Valor a tratar: </label>
+<input id="valor1" type="text">
+<br><br>
+<label> Valor a comparar: </label>
+<input id="valor2" type="text">
+<br><br>
+<input type="button" value="Comprobar">
+  <script>
+    $(function() {
+
+      /*Prueba de carteles de alerta en javascript*/
+      /*
+      alert("HOLA");
+      console.log("HOLA");
+      $("#texto").html("Nuevo Texto");
+      alert("HOla otra vez");
+      document.getElementById("texto").innerHTML="Nuevo Texto 2";
+      */
+
+
+      /* Vamos a definir variables ahora*/
+      /*var n=0;
+      console.log(n);
+
+      var texto="Mensaje desde variable";
+      document.getElementById("texto").innerHTML=texto;*/
+
+
+      //Más pruebas con variabes
+      //Definir un vector
+    /*  var v=[1, "Hola", "Adios", 3];
+      //Acceder al vector las posiciones se enumeran empezando por el 0
+      //Aquí estoy llamando al primer vector de la variable pero le estoy dando otro valor, por lo
+      // que me dará ese resultado, no el original que tiene el vector
+      v[1]="Hola de nuevo";
+      document.getElementById("texto").innerHTML=v[1];*/
+
+
+      /* Pruebas de if*/
+      $("input[type='button']").click(function(event){
+        var valor1 = parseInt($("#valor1").val());
+        var valor2 = parseInt($("#valor2").val());
+
+        if (valor1<valor2){
+          alert(valor1+"ES MENOR que" +valor2);
+        }
+        else if (valor1>valor2){
+          alert(valor1+ "ES MAYOR QUE" +valor2);
+        }
+        else {
+          alert(valor1 + "ES IGUAL QUE" valor2);
+        }
+      });
+    });
+
+
+  </script>
+</body>
+
+</html>

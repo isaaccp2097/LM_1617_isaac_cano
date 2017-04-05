@@ -1,0 +1,67 @@
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple sliding side bar using jquery</title>
+  <link rel="stylesheet" type="text/css" href="calculadora.css">
+  <script src="js/js.js"></script>
+</head>
+
+<body>
+
+<h1 id="texto">Java script</h1>
+
+<label> Numero 1: </label>
+<input id="valor1" type="number">
+<br><br>
+<label> Numero 2: </label>
+<input id="valor2" type="number">
+<br><br>
+<input type="button" value="+" class="operacion">
+<input type="button" value="-" id="resta">
+<input type="button" value="*" id="multiplica">
+<input type="button" value="/" id="division">
+<br><br>
+<label> El resultado es: </label>
+<br><br>
+<label id="texto"></label>
+  <script>
+    $(function() {
+
+
+      $("input[type='button']").click(function(event){
+        var num1 = parseInt($("#valor1").val());
+        var num2 = parseInt($("#valor2").val());
+        var opera = $(this).val();
+
+
+        if (opera=='+'){
+          var resultad = (num1 + num2);
+          document.getElementById("texto").innerHTML=resultad;
+          //alert("El resultado es: " + resultado);
+        }
+        else if (opera=='-'){
+          var resultad = num1 - num2;
+          document.getElementById("texto").innerHTML=resultad;
+        }
+
+        else if (opera=='*'){
+          var resultad = num1 * num2;
+          document.getElementById("texto").innerHTML=resultad;
+        }
+
+        else if (opera=='/'){
+          var resultad = num1 / num2;
+          document.getElementById("texto").innerHTML=resultad;
+        }
+
+      });
+
+    });
+
+
+  </script>
+</body>
+
+</html>
