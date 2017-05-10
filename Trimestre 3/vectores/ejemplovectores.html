@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="js/js.js"></script>
+  </head>
+  <body>
+    <h3>NE</h3>
+    <input type="text" name="" value="" id="cont">
+    <input type="button" name="" value="AÑADIR" id="ana">
+    <br><br>
+    <input type="button" name="" value="MOSTRAR" id="most">
+    <input type="button" name="" value="QUITAR" id="quitar">
+    <h2>ELEMENTOS DEL VECTOR</h2>
+    <ul id="lista">
+
+    </ul>
+    <script>
+      $(function() {
+        var vector=[];
+
+        $("#ana").click(function(event){
+          //defino una variable y la paso al contenido de la variable vector
+          var nuevo=$("#cont").val();
+          vector.push(nuevo);
+          // con la etiqueta html edito el contenido de mi codigo html
+          $("h2").html("Número de elementos ->"+vector.length);
+          console.log(vector);
+        });
+
+        $("#quitar").click(function(event){
+          vector.pop(vector);
+          console.log(vector);
+          $("h2").html("Número de elementos ->"+vector.length);
+        });
+
+        $("#most").click(function(event){
+          $("#lista").html("");
+          for (i = 0; i < vector.length; i++) {
+            $("#lista").append("<li>"+vector[i]+"</li>");
+
+          }
+
+          //console.log(vector);
+        });
+
+
+
+    });
+    </script>
+  </body>
+</html>

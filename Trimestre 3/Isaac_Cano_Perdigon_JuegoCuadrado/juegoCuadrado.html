@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>MI JUEGO</title>
+    <link rel="stylesheet" href="juegoCuadrado.css">
+    <script src="js/js.js"></script>
+  </head>
+  <body>
+    <div id="container">
+      <div id="fondo">
+      </div>
+      <div id="cuadrado">
+      </div>
+      <div id="vida">
+        <img src="vida.png" alt="" id="1" class="uno">
+        <img src="vida.png" alt="" id="2" class="uno">
+        <img src="vida.png" alt="" id="3" class="uno">
+      </div>
+      <img src="reset.png" alt="" id="reiniciar">
+      <img src="gameover.jpg" alt="" id="gameover">
+      <!-- <input type="button" name="" value="REINICIAR" id="reiniciar">-->
+    </div>
+    <div id="final">
+      <h2 id="resultado"> Tu puntuación es de: 0</h2>
+    </div>
+
+
+
+    <script>
+      function start(){
+          var top = Math.floor((Math.random() * 329) + 1);
+          var left = Math.floor((Math.random() * 729) + 1);
+          document.getElementById("cuadrado").style.top=top +"px";
+          document.getElementById("cuadrado").style.left=left +"px";
+          //console.log(top);
+          //console.log(left);
+        };
+
+        // definiendo las variables
+        $(function(){
+          var cont = 0;
+          var velocidad=2000;
+          var miset = setInterval(start, velocidad);
+          var contador=1;
+
+        $("#gameover").hide();
+        $("#cuadrado").click(function(){
+          cont=cont+1;
+          $("#resultado").text("Tu puntuación es de: "+ cont);
+
+          // Condiciones que aumentan la velocidad a medida que avanzas de nivel
+         if (cont%10==0) {
+            velocidad=velocidad-300;
+            clearInterval(miset);
+            miset = setInterval(start, velocidad);
+          }
+          else if (cont%20==0){
+            velocidad=velocidad-300;
+            clearInterval(miset);
+            miset = setInterval(start, velocidad);
+          }
+          else if (cont%30==0){
+            velocidad=velocidad-300;
+            clearInterval(miset);
+            miset = setInterval(start, velocidad);
+          }
+          else if (cont%40==0){
+            velocidad=velocidad-300;
+            clearInterval(miset);
+            miset = setInterval(start, velocidad);
+          }
+          else if (cont%50==0){
+            velocidad=velocidad-300;
+            clearInterval(miset);
+            miset = setInterval(start, velocidad);
+          }
+        });
+
+          // contador de vidas (corazones)
+            $("#fondo").click(function(){
+              if (contador>0 && contador<4) {
+              $("#"+contador).hide();
+            //console.log(contador);
+              contador=contador+1;
+            }
+            else {
+              $("#gameover").show();
+            }
+          });
+
+        // codigo que reinicia el juego
+        $("#reiniciar").click(function(){
+          clearInterval(miset);
+          velocidad=2000;
+          $("#resultado").text("Tu puntuación es de: 0");
+          $("img").show();
+          miset = setInterval(start, velocidad);
+          contador = 1;
+          cont = 0;
+          $("#gameover").hide();
+        });
+      });
+    </script>
+  </body>
+</html>

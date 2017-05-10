@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Crear tablas</title>
+    <script src="js/js.js"></script>
+  </head>
+  <body>
+    <b>Numero de filas</b>
+    <input type="text" name="" id="filas"> <br><br>
+    <b>Numero de columnas</b>
+    <input type="text" name="" id="columnas"><br><br>
+    <input type="button" name="" value="BORRAR" onclick="myFunctionBorrar(event)">
+    <input type="button" name="" value="CREAR"  onclick="myFunctionCrear(event)">
+    <table id="tabla">
+
+    </table>
+
+    <script>
+    function myFunctionCrear(event) {
+        document.getElementById("filas").parseInt($(this).val());
+        document.getElementById("columnas").parseInt($(this).val());
+        for (contfil=1;contfil<=filas;contfil++){
+          texto1+="<tr>";
+          for (contcol=1;contcol<=columnas;contcol++){
+            texto1+="<td>3</td>";
+          };
+          texto1+="<tr>";
+          $("#tabla").innerHTML=texto1;
+
+
+    }
+
+  });
+    </script>
+
+
+
+  </body>
+</html>

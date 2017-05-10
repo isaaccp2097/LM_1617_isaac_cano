@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="js/js.js"></script>
+  </head>
+  <body>
+    <input type="text" name="" value="" id="X">
+    <input type="text" name="" value="" id="Y">
+    <br>
+    <input type="button" name="" value="+" id="suma">
+    <input type="button" name="" value="-" id="resta">
+    <input type="button" name="" value="x" id="multiplicacion">
+    <input type="button" name="" value="/" id="division">
+
+
+    <script>
+    $(function(){
+      function suma(s1,s2){
+        s1=parseInt(s1);
+        s2=parseInt(s2);
+        return s1+s2;
+      }
+
+      function resta(s1,s2){
+        s1=parseInt(s1);
+        s2=parseInt(s2);
+        return s1-s2;
+      }
+
+      function multiplicacion(s1,s2){
+        s1=parseInt(s1);
+        s2=parseInt(s2);
+        return s1*s2;
+      }
+
+      function division(s1,s2){
+        s1=parseInt(s1);
+        s2=parseInt(s2);
+        return s1/s2;
+      }
+
+      function capturaX(){
+        return $("#X").val();
+      }
+
+      function capturaY(){
+        return document.getElementById("Y").value;
+      }
+
+      $("#suma").click(function(){
+      var x=capturaX();
+      var y=capturaY();
+      $("body").append("La suma es: "+ suma(x,y));
+      });
+
+
+      $("#resta").click(function(){
+      var x=capturaX();
+      var y=capturaY();
+      $("body").append("La resta es: "+ resta(x,y));
+    });
+
+      $("#multiplicacion").click(function(){
+      var x=capturaX();
+      var y=capturaY();
+      $("body").append("La suma es: "+ multiplicacion(x,y));
+    });
+
+     $("#division").click(function(){
+     var x=capturaX();
+     var y=capturaY();
+     $("body").append("La suma es: "+ division(x,y));
+    });
+    });
+    </script>
+  </body>
+</html>

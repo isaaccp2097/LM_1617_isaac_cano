@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+}
+body{
+  background-image: url(cuadrado.jpg);
+}
+#container{
+  height: 400px;
+  width: 800px;
+  border: 10px solid #585858;
+  background-color: #BCF5A9;
+  margin: auto;
+  position: relative;
+  top: 90px;
+}
+#fondo{
+  height: 380px;
+  width: 780px;
+  background-color: #5858FA;
+  margin: auto;
+  position: absolute;
+  top: 0px;
+}
+#cuadrado{
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+#final{
+  height: 70px;
+  top: 500px;
+  left: 41%;
+  position: absolute;
+  background-color: #5858FA;
+  border: 5px solid #585858;
+}
+.uno{
+  height: 30px;
+  margin-left: 50px;
+}
+
+#vida{
+  top: -50px;
+  position: absolute;
+}
+
+#reiniciar{
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  top: -75px;
+  left: 688px;
+}
+input{
+  top:-50px;
+  position: absolute;
+  left: 628px;
+  height: 30px;
+  width: 100px;
+}
+#gameover{
+  position: absolute;
+  height: 380px;
+  width: 780px;
+}

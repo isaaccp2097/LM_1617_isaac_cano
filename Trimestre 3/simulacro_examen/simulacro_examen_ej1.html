@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ejercicio 1</title>
+    <link rel="stylesheet" href="simulacro_examen_ej1.css">
+    <script src="js/js.js"></script>
+  </head>
+  <body>
+    <h1>AÑADE ELEMENTO AL VECTOR</h1>
+    <h4>ELEMENTO A AÑADIR</h4>
+    <input type="text" name="" value="Inserta elemento" id="element">
+    <input type="button" name="" value="Añadir a vector" id="anadir">
+    <input type="button" name="" value="Mostrar Vector" id="mostrar">
+    <input type="button" name="" value="Vaciar Vector" id="vaciar">
+    <ul id="lista">
+
+    </ul>
+
+    <script>
+      $(function() {
+        var vector=[];
+
+        $("#anadir").click(function(event){
+          //defino una variable y la paso al contenido de la variable vector
+          var nuevo=$("#element").val();
+          vector.push(nuevo);
+          // con la etiqueta html edito el contenido de mi codigo html
+
+          console.log(vector);
+        });
+
+        $("#mostrar").click(function(event){
+          $("#lista").html("");
+          for (i = 0; i < vector.length; i++) {
+            $("#lista").append("<li>"+vector[i]+"</li>");
+
+          }
+        });
+
+        $("#vaciar").click(function(event){
+          vector.pop(vector);
+          console.log(vector);
+        });
+
+      });
+
+    </script>
+  </body>
+</html>

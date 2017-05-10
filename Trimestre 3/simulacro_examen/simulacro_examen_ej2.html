@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ejercicio 2</title>
+    <link rel="stylesheet" href="simulacro_examen_ej2.css">
+    <script src="js/js.js"></script>
+  </head>
+  <body>
+    <h1>LENGUAJE DE MARCAS - JAVASCRIPT</h1>
+    <textarea name="name" rows="12" cols="27" id="textarea"></textarea>
+    <input type="button" name="" value="CONTAR" id="contar">
+    <h3>0 PALABRAS</h3>
+    <br><br>
+    <input type="text" name="" value="" id="texto">
+    <input type="button" name="" value="BUSCAR" id="buscar">
+    <h4></h4>
+
+    <script>
+      $(function() {
+          $("#contar").click(function(event){
+            var cont=$("#textarea").val().split(" ");
+            var num=cont.length;
+            //length();
+            console.log(cont);
+            console.log(num);
+            $("h3").text(num+" PALABRAS")
+          });
+
+          $("#buscar").click(function(event){
+            var cont=$("#textarea").val().split(" ");
+            var valor=$("#texto").val();
+            var i=0;
+            while (i<cont.length) {
+              if (valor!=cont[i]) {
+                $("h4").append("NO ESTA");
+              }
+              else {
+                $("h4").append(valor+" ESTA EN EL TEXTO");
+              }
+              i=i+1;
+            }
+          });
+      });
+
+    </script>
+  </body>
+</html>

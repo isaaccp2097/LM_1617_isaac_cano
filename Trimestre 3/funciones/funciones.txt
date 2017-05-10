@@ -1,0 +1,19 @@
+DIFERENCIA ENTRE JQUERY Y JAVASCIPT
+-----------------------------------
+var x=$("X").val();
+var x=document.getElementById("X").value;
+
+
+FUNCIONES
+-----------
+funciton suma(s1,s2){
+s1=parseInt(s1)
+s2=parseInt(s2)
+return s1+s2;
+}
+$("#suma").click(funciton()
+var x=$("X").val();
+var y=document.getElementById("Y").value;
+
+$("body")append("La suma es"+ suma(x,y));
+)

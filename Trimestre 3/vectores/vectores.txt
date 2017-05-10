@@ -1,0 +1,23 @@
+Definición de vector
+---------------------
+var v=[];
+var v1=[54,75,"H",100];--> definicion de vector leno
+longitud de un vector
+v.lenght --> 0
+v1.lenght --> 3 empezando a contar por el cero para acceder a el
+
+Añadir elementos al vector
+-------------------------
+1 forma: cars[cars.lenght]="SEAT";
+2 forma: cars[3]="SEAT";
+cars.push("SEAT");
+
+Modificar un elemento
+--------------------------
+v[i]="Nombre a darle"; --> fruits[1]="kiwi";
+
+POP
+------
+Sirve para borrar el ultimo elemento de un vector, ya que funciona
+como una pila LIFO v=[kiwi, coco, mango, pera] si hago pop, desapa
+recerá "pera"

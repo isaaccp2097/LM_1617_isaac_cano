@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <script src="js/js.js"></script>
+    <link rel="stylesheet" type="text/css" href="creatablas.css">
+  </head>
+  <body>
+    <div>
+    	<p>
+    		<h3>Nº Filas</h3>
+    		<input type="text" id="valor1"/>
+    	</p>
+    	<p>
+    		<h3>Nº Columnas</h3>
+    		<input type="text" id="valor2"/>
+    	</p>
+    	<p>
+    		<input type="button" value="Crear tabla" id="crea">
+        <input type="button" value="Borrar tabla" id="borra">
+    	</p>
+  	</div>
+
+
+      <script>
+      $(function() {
+        $("#crea").click(function(event){
+          var numfil = parseInt($("#valor1").val());
+          var numcol = parseInt($("#valor2").val());
+          console.log(numfil);
+          console.log(numcol);
+          texto1="<table>";
+          for (contfil=1;contfil<=numfil;contfil++){
+            texto1+="<tr>";
+            for (contcol=1;contcol<=numcol;contcol++){
+              texto1+="<td>2</td>";
+            };
+            texto1+="</tr>";
+
+          }
+          texto1+="</table>"
+          $("body").append(texto1);
+        });
+
+        $("#borra").click(function(event){
+          $("table").remove();
+        });
+
+
+      });
+      </script>
+
+  </body>
+</html>

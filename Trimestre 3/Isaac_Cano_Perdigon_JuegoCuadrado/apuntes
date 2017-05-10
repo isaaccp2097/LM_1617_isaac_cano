@@ -1,0 +1,12 @@
+1.- Doble cuadrado con un borde centrado con un tamaño de 800 de ancho y 400 de alto
+el borde será de 10px, por lo que el contenido será de 780
+
+2.- Mirar función javascirpt llamada setinterval(), le dices unan función y el intervalo en milisegundos ej: setInterval(function(){ alert("Hola"); }, 3000);
+Usando math.random calcula la x y la y, nuestra cordenada empieza arriba a la izquierda.
+
+Cuadrado interno será de 50x50 posicionandolo con relative y absolute
+hay que calcular "x" entre 10 y 730 y una "y" entre 10 y 340 por el borde de 10px y el tamaño del cuadrado para que no se salga
+
+
+3.- Crear manejador de clic dentro del elemento div padre 
+lo que quiero es saber si donde hago clic está el cuadrado div hijo

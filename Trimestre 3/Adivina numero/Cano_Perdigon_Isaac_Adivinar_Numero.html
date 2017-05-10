@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Adivina Numero</title>
+    <script src="js/js.js"></script>
+  </head>
+  <body>
+    <h1>¿ADIVINARAS EL NUMERO?</h1>
+    <h2>Tienes 5 intentos</h2>
+    <br>
+    <h3 id="resultado"></h3>
+
+
+    <script>
+      $(function() {
+        mio = false;
+        var random = Math.floor((Math.random() * 100) + 1);
+        var intento = 1;
+        console.log(minum);
+        console.log(random);
+
+        while (intento<=5 && mio==false) {
+          var minum = prompt("Introduce el numero que creas que es", "");
+          if (minum>random) {
+            alert("El numero es mas pequeño   " + "INTENTOS: "+intento);
+          }
+          else if (minum<random) {
+            alert("El numero es mas grande    " + "INTENTOS: "+intento);
+          }
+          else if (minum==random) {
+            //$("#resultado").text("El numero es ESE!!");
+            intento=5;
+            mio=1;
+          }
+          intento=intento+1;
+          console.log(mio);
+        };
+
+        if (mio==false) {
+          $("#resultado").text("HAS PERDIDO, " + "EL RESULTADO ERA "+ random);
+        }
+        else if (mio==1){
+          $("#resultado").text("HAS GANADO");
+        }
+      });
+</script>
+  </body>
+</html>
